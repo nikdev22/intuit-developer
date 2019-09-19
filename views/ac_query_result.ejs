@@ -1,0 +1,28 @@
+<%include ./partials/header %>
+<a class="ui basic black button"  href="/account/query" style="margin-left: 5px;">Go Back</a>
+<div class="ui main text container">
+    <div class="ui top attached segment">
+        <div class="ui divided items">
+                <%for(var i = 0; i < dataResult.length; i++){%>
+                    <div class="ui list">
+                        <div class="item">
+                        <p> <strong>Name:</strong>  <%=dataResult[i].Name%></p>
+                        </div>
+                        <div class="item">
+                        <p><strong>AccountType:</strong> <%=dataResult[i].AccountType%></p>
+                        </div>
+                        <div class="item">
+                        <p><strong>CurrentBalance:</strong> <%=dataResult[i].CurrentBalance%></p>
+                        </div>
+                        <div class="item">
+                        <p><strong>AccountSubType:</strong> <%=dataResult[i].AccountSubType%></p>
+                        </div>
+                    </div>
+                    <hr>
+                <%} %>
+        </div>
+    </div>
+</div>
+
+<a class="ui basic black button" href="/account/query" style="margin-left: 5px;">Go Back</a>
+<%include ./partials/footer %>

@@ -1,0 +1,30 @@
+<%include ./partials/header %>
+<h1 class="ui center aligned icon header"><%=accountInfo.Name%></h1>
+
+<br>
+<div class="ui main text container">
+    <div class="ui top attached segment">
+         <div class="ui divided items">
+             <div class="ui list">
+                 <div class="item">
+                <p> <strong>Name:</strong>  <%=accountInfo.Name%></p>
+                </div>
+                <div class="item">
+                <p><strong>AccountType:</strong> <%=accountInfo.AccountType%></p>
+                </div>
+                <div class="item">
+                <p><strong>CurrentBalance:</strong> <%=accountInfo.CurrentBalance%></p>
+                </div>
+                <div class="item">
+                <p><strong>AccountSubType:</strong> <%=accountInfo.AccountSubType%></p>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+<a class="ui basic black button" href="/account" style="margin-left: 45%; margin-top:10px;">Go Back</a>
+<%include ./partials/footer %>
+
+
+       
+       

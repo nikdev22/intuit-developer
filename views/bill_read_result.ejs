@@ -1,0 +1,29 @@
+<%include ./partials/header %>
+<h1 class="ui center aligned icon header"><%=billInfo.LegalName%></h1>
+<br>
+<div class="ui main text container">
+    <div class="ui top attached segment">
+        <div class="ui divided items">
+            <div class="ui list">
+                <div class="item">
+                    <p> <strong>APA Account Ref:</strong>  <%=billInfo.APAccountRef.name%></p>
+                </div>
+                <div class="item">
+                    <p><strong>Vender Ref Name:</strong> <%=billInfo.VendorRef.name%></p>
+                </div>
+                <div class="item">
+                    <p><strong>Total Amt:</strong> <%=billInfo.TotalAmt%></p>
+                </div>
+                <div class="item">
+                    <p><strong>Balance:</strong> <%=billInfo.Balance%></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<a class="ui basic black button" href="/bill" style="margin-left: 45%; margin-top:10px;">Go Back</a>
+<%include ./partials/footer %>
+
+
+       
+       

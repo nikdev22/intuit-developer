@@ -1,0 +1,16 @@
+<%include ./partials/header %>
+<div>
+    <h1 class="ui center aligned icon header">Query '<%=obj%>' Object</h1>
+    <div class="ui compact segment" style="left: 33%;margin-top: 5%;">
+        <div>
+            <form action="/<%=obj%>/query" method="POST" class="ui huge form">
+                <div class="field">
+                    <textarea name="Query" id="" cols="40" rows="3" required=true>Please Enter your query...
+                    </textarea>
+                </div>
+            <input class="ui basic black button" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+<%include ./partials/footer %>

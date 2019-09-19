@@ -1,0 +1,30 @@
+<%include ./partials/header %>
+<h1 class="ui center aligned icon header"><%=companyInfo.CompanyName%></h1>
+
+<div class="ui main text container">
+        <div class="ui top attached segment">
+            <div class="ui divided items">
+                <div class="ui list">
+                    <div class="item">
+                        <p> <strong>Company Address :</strong>  <%=companyInfo.CompanyAddr.Line1%>,<%=companyInfo.CompanyAddr.City%></p>
+                    </div>
+                    <div class="item">
+                        <p><strong>Country:</strong> <%=companyInfo.Country%></p>
+                    </div>
+                    <div class="item">
+                        <p><strong>Email:</strong> <%=companyInfo.Email.Address%></p>
+                    </div>
+                    <div class="item">
+                        <p><strong>Sync Token:</strong> <%=companyInfo.SyncToken%></p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+<br>
+<a class="ui basic black button" href="/company_info" style="margin-left: 45%; margin-top:10px;">Go Back</a>
+<%include ./partials/footer %>
+
+
+       
+       
