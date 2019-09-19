@@ -12,18 +12,23 @@ Things to Do:
 3. Create and Update functionality will be added shortly to the application.
 
 Things to expect - provided below are the screenshots of the pages that you can expect.
-1. Authentication/ Sign in page.
+1. <strong>Authentication/ Sign in page.</strong>
 <img src="https://intuitsolution.s3.amazonaws.com/i1.png" alt="sign_page">
 <br>
-2. Once the authentication is completed, it will gather the access token( in background) and redirect to Home page.QBO enpoints will be displayed. In this case; Account,Bill and company info will be displayed.
+2. Once the authentication is completed, it will gather the <strong>access token( in background)</strong> and redirect to Home page.QBO enpoints will be displayed. In this case; Account,Bill and company info will be displayed.
 <img src="https://intuitsolution.s3.amazonaws.com/i2.png" alt="home_page">
-3. For this example, Let's choose Account.
+<br>
+3. For this example, Let's <strong>choose Account.</strong>
 <img src="https://intuitsolution.s3.amazonaws.com/i3.png" alt="home_page">
-4. At the moment, read and query options are added. So, you can choose either Read or Query. If you choose Read, then the following page will appear.
+<br>
+4. At the moment, <strong>read and query</strong> options are added. So, you can choose either Read or Query. If you choose Read, then the following page will appear.
 <img src="https://intuitsolution.s3.amazonaws.com/i4.png" alt="home_page">
-5. Once, you add account Id and Proceed to fetch info, following page will appear with details regarding the company.
+<br>
+5. Once, you enter <strong>account Id </strong>and Proceed to fetch info, following page will appear with details regarding the company.
 <img src="https://intuitsolution.s3.amazonaws.com/i5.png" alt="home_page">
+<br>
 6. You can either choose to go back or stay. If you choose to go back and click on <strong>Query</strong>, following page appears.
 <img src="https://intuitsolution.s3.amazonaws.com/i6.png" alt="home_page">
-7. Once the <strong>Query</strong> extract data, the results are displayed as follows.
+<br>
+7. Once the <strong>Query</strong> extract data, the <strong>results are displayed</strong> as follows.
 <img src="https://intuitsolution.s3.amazonaws.com/i7.png" alt="home_page">
