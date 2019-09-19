@@ -14,6 +14,7 @@ Things to Do:
 Things to expect - provided below are the screenshots of the pages that you can expect.
 1. Authentication/ Sign in page.
 <img src="https://intuitsolution.s3.amazonaws.com/i1.png" alt="sign_page">
+<br>
 2. Once the authentication is completed, it will gather the access token( in background) and redirect to Home page.QBO enpoints will be displayed. In this case; Account,Bill and company info will be displayed.
 <img src="https://intuitsolution.s3.amazonaws.com/i2.png" alt="home_page">
 3. For this example, Let's choose Account.
